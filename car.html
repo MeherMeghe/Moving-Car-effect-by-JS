@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Car</title>
+</head>
+<body>
+
+    <button onclick="carbackword()"> backword</button>
+
+    <img src="./new car.png" id="car" height="200px" width="200px">
+
+    
+    <button onclick="carforword()"> forword</button>
+
+    <script>
+
+        function carforword(){
+     
+            document.getElementById('car').src="./car-moving-1.jpg";
+
+        }
+
+        function carbackword(){
+                  
+            document.getElementById('car').src="./new car.png";
+             
+        }
+    </script>
+
+    
+    
+</body>
+</html>
